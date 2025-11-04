@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:gastos_personales/models/categoria.dart';
+import 'package:gastos_personales/models/gasto.dart';
 
 class PantallaPrincipal extends StatefulWidget {
   const PantallaPrincipal({super.key});
@@ -8,7 +10,8 @@ class PantallaPrincipal extends StatefulWidget {
 }
 
 class _PantallaPrincipalState extends State<PantallaPrincipal> {
-  
+
+    Gasto gasto = Gasto(monto: 0.0, categoria: Categoria(alimentacion: '', transporte: '', entretenimiento: ''), descripcion: '');
   
   @override
   Widget build(BuildContext context) {
@@ -31,6 +34,4 @@ class _PantallaPrincipalState extends State<PantallaPrincipal> {
       ),
     );
   }
-
-
 }
