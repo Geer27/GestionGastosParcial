@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="parcial_3_igf"
+        android:label="gastos_personales"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

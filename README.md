@@ -1,3 +1,3 @@
-# parcial_3_igf
+# gastos_personales
 
 A new Flutter project.

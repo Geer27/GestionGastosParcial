@@ -1,6 +1,6 @@
 {
-    "name": "parcial_3_igf",
-    "short_name": "parcial_3_igf",
+    "name": "gastos_personales",
+    "short_name": "gastos_personales",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
